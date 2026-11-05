@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-一款轻量级 DLL 模组，用于修复 Windows 平台上使用 Sony DualShock4（PS4）手柄时，《心灵杀手2》出现的音频输出异常问题。
+一款轻量级 DLL 模组，用于修复 Windows 平台上使用 Sony DualShock4 V2（PS4）手柄时，《心灵杀手2》出现的音频输出异常问题。
 
 ## 概述
 
