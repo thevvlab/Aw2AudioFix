@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Aw2AudioFix/Aw2AudioFix.vcxproj" Id="7e6a9935-2dce-4e1d-a069-2255d885712d" />
+</Solution>

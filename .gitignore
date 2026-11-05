@@ -1,0 +1,37 @@
+# Visual Studio user settings
+*.vcxproj.user
+*.suo
+*.user
+*.sln.docstates
+
+# Build outputs
+build/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/Debug/
+x64/Release/
+
+# Intermediate build files
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog/
+*.log
+*.recipe
+*.exp
+*.lib
+
+# IDE and system files
+.vs/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
