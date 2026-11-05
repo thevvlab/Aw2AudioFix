@@ -1,4 +1,4 @@
-# 心灵杀手2 — DualShock 4 音频修复
+# 心灵杀手2 — DualShock4 V2 音频修复
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
