@@ -91,7 +91,7 @@ cmake --build . --config Release
 - 检查耳机是否牢固地连接到手柄。
 - 确认原版 DLL 已重命名为 `xaudio2_9_original.dll`。
 - 确认模组 DLL 名称为 `xaudio2_9redist.dll`，并且位于游戏根目录。
-- 如果音频输出问题仍然存在，请在 [Issues（问题反馈页面）](https://github.com/thevvlab/Aw2AudioFix/issues) 中报告 Windows 版本、游戏版本、手柄型号和连接方式。
+- 如果音频输出问题仍然存在，请在 [Issues](https://github.com/thevvlab/Aw2AudioFix/issues) 中报告 Windows 版本、游戏版本、手柄型号和连接方式。
 
 ## 致谢
 
