@@ -29,7 +29,7 @@
 1. 找到《心灵杀手2》的游戏安装目录。
 2. 在游戏根目录中找到原版 `xaudio2_9redist.dll`。
 3. 将原版 DLL 重命名为 `xaudio2_9_original.dll`。
-4. 从 [Releases（发布页面）](https://github.com/thevvlab/Aw2AudioFix/releases) 下载最新版本的模组。
+4. 从 [Releases](https://github.com/thevvlab/Aw2AudioFix/releases) 下载最新版本的模组。
 5. 将模组的 `xaudio2_9redist.dll` 放入游戏根目录，与重命名后的原版 DLL 放在一起。
 6. 通过 USB 连接 DualShock 4 手柄，并将耳机插入手柄的 3.5 毫米音频接口。
 7. 启动《心灵杀手2》，测试音频输出是否正常。
