@@ -1,5 +1,7 @@
 # Alan Wake 2 — DualShock 4 Audio Fix
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A lightweight DLL-based mod for *Alan Wake 2* that fixes audio routing issues when using a Sony DualShock 4 (PS4) controller on Windows.
 
 ## Overview
