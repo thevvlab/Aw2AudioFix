@@ -95,7 +95,7 @@ cmake --build . --config Release
 
 ## 致谢
 
-- [MinHook](https://github.com/TsudaKageyu/minhook) — API Hook（应用程序接口钩子）库。
+- [MinHook](https://github.com/TsudaKageyu/minhook) — API Hook库。
 
 ## 免责声明
 
