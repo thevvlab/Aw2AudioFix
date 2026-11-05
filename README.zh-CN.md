@@ -2,17 +2,17 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-一款轻量级 DLL 模组，用于修复 Windows 平台上使用 Sony DualShock 4（PS4）手柄时，《心灵杀手2》出现的音频输出异常问题。
+一款轻量级 DLL 模组，用于修复 Windows 平台上使用 Sony DualShock4（PS4）手柄时，《心灵杀手2》出现的音频输出异常问题。
 
 ## 概述
 
-当耳机连接到 DualShock 4 手柄的 3.5 毫米音频接口时，《心灵杀手2》可能会在玩家操作手柄后，意外地将音频输出切换到手柄内置扬声器。
+当耳机连接到 DualShock4 V2 手柄的 3.5 毫米音频接口时，《心灵杀手2》可能会在玩家操作手柄后，意外地将音频输出切换到手柄内置扬声器。
 
 本模组可以帮助防止游戏将音频输出切换到手柄内置扬声器，使音频保持通过连接在手柄上的耳机输出。
 
 ## 功能特性
 
-- 修复 DualShock 4 手柄导致的意外音频输出切换问题。
+- 修复 DualShock4 V2 手柄导致的意外音频输出切换问题。
 - 支持原生手柄输入，无需安装 DS4Windows。
 - 帮助保持音频通过手柄耳机接口输出。
 - 轻量级 DLL 模组。
@@ -20,7 +20,7 @@
 ## 环境要求
 
 - Windows 版《心灵杀手2》
-- 通过 USB 连接的 Sony DualShock 4 手柄
+- 通过 USB 连接的 Sony DualShock4 V2 手柄
 - 连接到手柄 3.5 毫米音频接口的耳机
 - Microsoft Visual C++ Redistributable（如果构建版本需要）
 
@@ -31,7 +31,7 @@
 3. 将原版 DLL 重命名为 `xaudio2_9_original.dll`。
 4. 从 [Releases](https://github.com/thevvlab/Aw2AudioFix/releases) 下载最新版本的模组。
 5. 将模组的 `xaudio2_9redist.dll` 放入游戏根目录，与重命名后的原版 DLL 放在一起。
-6. 通过 USB 连接 DualShock 4 手柄，并将耳机插入手柄的 3.5 毫米音频接口。
+6. 通过 USB 连接 DualShock4 V2 手柄，并将耳机插入手柄的 3.5 毫米音频接口。
 7. 启动《心灵杀手2》，测试音频输出是否正常。
 
 ### 安装后的目录结构
@@ -47,7 +47,7 @@ Alan Wake 2/
 
 ## 使用方法
 
-1. 使用 USB 数据线将 DualShock 4 手柄连接到电脑。
+1. 使用 USB 数据线将 DualShock4 V2 手柄连接到电脑。
 2. 将耳机连接到手柄的 3.5 毫米音频接口。
 3. 确认原版 DLL 已重命名，且模组 DLL 已放入游戏根目录。
 4. 启动《心灵杀手2》。
@@ -81,7 +81,7 @@ cmake --build . --config Release
 
 ## 兼容性
 
-本模组适用于 Windows 版《心灵杀手2》以及通过 USB 连接的 Sony DualShock 4 手柄。
+本模组适用于 Windows 版《心灵杀手2》以及通过 USB 连接的 Sony DualShock4 V2 手柄。
 
 尚未验证其他手柄、无线连接方式或未来游戏更新的兼容性。
 
