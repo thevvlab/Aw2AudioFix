@@ -2,17 +2,17 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-A lightweight DLL-based mod for *Alan Wake 2* that fixes audio routing issues when using a Sony DualShock 4 (PS4) controller on Windows.
+A lightweight DLL-based mod for *Alan Wake 2* that fixes audio routing issues when using a Sony DualShock4 V2 (PS4) controller on Windows.
 
 ## Overview
 
-When a headset is connected to the DualShock 4's 3.5 mm audio jack, *Alan Wake 2* may unexpectedly route audio to the controller's built-in speaker after controller input.
+When a headset is connected to the DualShock4 V2's 3.5 mm audio jack, *Alan Wake 2* may unexpectedly route audio to the controller's built-in speaker after controller input.
 
 This mod helps prevent the game from switching audio output to the controller's built-in speaker, allowing audio to remain routed through the headset connected to the controller.
 
 ## Features
 
-- Fixes unexpected audio routing changes with the DualShock 4.
+- Fixes unexpected audio routing changes with the DualShock4 V2.
 - Supports native controller input without requiring DS4Windows.
 - Helps preserve audio output through the controller's headset jack.
 - Lightweight DLL-based mod.
@@ -20,7 +20,7 @@ This mod helps prevent the game from switching audio output to the controller's 
 ## Requirements
 
 - *Alan Wake 2* (Windows)
-- Sony DualShock 4 controller connected via USB
+- Sony DualShock4 V2 controller connected via USB
 - Headset connected to the controller's 3.5 mm audio jack
 - Microsoft Visual C++ Redistributable (if required by the build)
 
@@ -31,7 +31,7 @@ This mod helps prevent the game from switching audio output to the controller's 
 3. Rename the original DLL to `xaudio2_9_original.dll`.
 4. Download the latest mod release from the [Releases](../../releases) page.
 5. Copy the mod's `xaudio2_9redist.dll` into the game root directory, alongside the renamed original DLL.
-6. Connect your DualShock 4 controller via USB and plug your headset into its 3.5 mm audio jack.
+6. Connect your DualShock4 V2 controller via USB and plug your headset into its 3.5 mm audio jack.
 7. Launch *Alan Wake 2* and test the audio output.
 
 ### Installation Directory
@@ -49,7 +49,7 @@ Alan Wake 2/
 
 ## Usage
 
-1. Connect the DualShock 4 controller to your PC using a USB data cable.
+1. Connect the DualShock4 V2 controller to your PC using a USB data cable.
 2. Connect your headset to the controller's 3.5 mm audio jack.
 3. Make sure the original DLL has been renamed and the mod DLL is in the game root directory.
 4. Launch *Alan Wake 2*.
@@ -83,7 +83,7 @@ Copy the resulting `xaudio2_9redist.dll` into the *Alan Wake 2* game root direct
 
 ## Compatibility
 
-This mod is intended for the Windows version of *Alan Wake 2* and a Sony DualShock 4 controller connected via USB.
+This mod is intended for the Windows version of *Alan Wake 2* and a Sony DualShock4 V2 controller connected via USB.
 
 Compatibility with other controllers, wireless connections, or future game updates has not been verified.
 
