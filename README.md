@@ -12,10 +12,14 @@ This mod helps prevent the game from switching audio output to the controller's 
 
 ## Features
 
+v1.0.0
 - Fixes unexpected audio routing changes with the DualShock4 V2.
 - Supports native controller input without requiring DS4Windows.
 - Helps preserve audio output through the controller's headset jack.
 - Lightweight DLL-based mod.
+
+v1.0.1
+- Mapped the DS4 left touchpad to M, fixing the map toggle issue.
 
 ## Requirements
 
@@ -89,6 +93,7 @@ Compatibility with other controllers, wireless connections, or future game updat
 
 ## Troubleshooting
 
+- Ensure that the key for opening the map is set to M.
 - Make sure the controller is connected before launching the game.
 - Check that the headset is securely connected to the controller.
 - Verify that the original DLL is named `xaudio2_9_original.dll`.
