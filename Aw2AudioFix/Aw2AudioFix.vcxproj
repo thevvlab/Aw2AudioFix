@@ -140,13 +140,13 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>D:\AW2_AudioMod_Dev\MinHook_134_lib\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Aw2AudioFix\minhook\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>D:\AW2_AudioMod_Dev\MinHook_134_lib\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Aw2AudioFix\minhook\build\VC17\lib\Release</AdditionalLibraryDirectories>
       <AdditionalDependencies>libMinHook.x64.lib;user32.lib</AdditionalDependencies>
     </Link>
     <Manifest>
@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ReadFileHook.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

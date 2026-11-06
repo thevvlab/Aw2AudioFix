@@ -11,6 +11,7 @@ add_subdirectory(minhook)
 # 2. 创建你的 Aw2AudioFix 动态库 (DLL) 项目
 add_library(Aw2AudioFix MODULE
     Aw2AudioFix/dllmain.cpp
+    Aw2AudioFix/ReadFileHook.cpp
     Aw2AudioFix/framework.h
 )
 
