@@ -12,14 +12,14 @@ This mod helps prevent the game from switching audio output to the controller's 
 
 ## Features
 
+v1.0.1
+- Mapped the DS4 left touchpad to M, fixing the map toggle issue.
+  
 v1.0.0
 - Fixes unexpected audio routing changes with the DualShock4 V2.
 - Supports native controller input without requiring DS4Windows.
 - Helps preserve audio output through the controller's headset jack.
 - Lightweight DLL-based mod.
-
-v1.0.1
-- Mapped the DS4 left touchpad to M, fixing the map toggle issue.
 
 ## Requirements
 
